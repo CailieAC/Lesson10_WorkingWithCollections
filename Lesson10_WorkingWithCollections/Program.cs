@@ -76,7 +76,9 @@ namespace Lesson10_WorkingWithCollections
                 new Car { Make = "Oldsmobile", Model = "Cutlas Supreme", VIN = "E5" },
                 new Car { Make = "Nissan", Model = "Altima", VIN = "F6" }
             };
-        
+
+            Console.WriteLine($"The list has {myList.Count} items in it");
+
             Console.ReadLine();
         }
     }
